@@ -18,10 +18,10 @@ Robot dynamics:
 M(q) qdd + C(q,qdot) + g(q) = tau
 
 Computed torque control:
-tau = M(q)(qdd_d + Kd(qd_dot-qdot) + Kp(qd-q)) + C + g
+\tau = M(q)(qdd_d + Kd(qd_dot-qdot) + Kp(qd-q)) + C + g
 
 Impedance control:
-tau = K(qd-q) - D qdot + g
+\tau = K(qd-q) - D qdot + g
 
 ## How to Run
  
