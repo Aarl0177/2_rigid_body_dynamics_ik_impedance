@@ -23,6 +23,3 @@ Computed torque control:
 Impedance control:
 \tau = K(qd-q) - D qdot + g
 
-## How to Run
- 
-pip install -r requirements.txt
